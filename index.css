@@ -1,0 +1,177 @@
+/* head */
+
+section.header {
+    position: relative;
+    padding: 100px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;
+    background: #F1FAEE; */
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'audiowide';
+    padding: 10px 10px
+}
+
+ul {
+    position: absolute;
+    margin-block: -1em 1em;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 38px;
+
+}
+
+li {
+    padding: 5px;
+    list-style: none;
+    display: inline;
+}
+
+li a {
+    background: #86b54d;
+    color: #ffffff;
+}
+
+li a:hover {
+    background: #f91377;
+    color: rgb(0, 0, 0);
+}
+
+.navi {
+    position: absolute;
+    display: flex;
+    background: rgb(134, 181, 77);
+    padding: 20px 4px;
+    border-radius: 20px;
+    width: 299px;
+    height: 62px;
+    left: 1118px;
+    top: 55px;
+    box-shadow: rgb(0 0 0 / 42%) 0px 9px 27px -14px;
+}
+
+@media screen and (max-width: 680px) {}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 44px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+
+h1 {
+    position: relative;
+    padding: 16px 98px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.9rem;
+    color: #0022ff;
+}
+
+.toku {
+    color: #f91377;
+}
+
+.img-home {
+    padding: 20px 10px;
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-home img {
+    max-width: 900px;
+}
+
+body {
+    background-image: url("foto.jpg");
+    background-color: #a0d166;
+    background-repeat: no-repeat;
+}
+
+/* body home */
+.home .text-home {
+    position: relative;
+    max-width: 600px;
+    margin-left: -38px;
+}
+
+.our {
+    color: black;
+}
+
+.text-home h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1em;
+    color: #f91377;
+}
+
+.text-home h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.text-home {
+    top: -13px;
+}
+
+.home {
+    padding: 106px 103px;
+}
+
+/* informasi */
+section.informasi {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: #457B9D;
+    align-items: center;
+}
+
+.header-text {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.header-text h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #1D3557;
+    text-transform: uppercase;
+}
